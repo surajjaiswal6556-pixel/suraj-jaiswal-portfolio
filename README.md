@@ -55,6 +55,13 @@ No framework, package installation, or build command is required.
 
 “Hello, my name is Suraj Jaiswal. This is my Personal Portfolio Website, created as Project 1 for my Web Development internship. I built it using HTML, CSS, and JavaScript. The website includes my introduction, About Me section, current skills, project showcase, and contact information. I used responsive CSS so the layout adapts to different screen sizes. I also added simple JavaScript interactions for the navigation and page details. This project helped me practise structuring a website, styling responsive layouts, and adding basic interactivity. Thank you for watching.”
 
+## Internship Task 2 — Responsive Landing Page
+
+Task 2 is in the `task-2-landing-page/` folder. It includes a responsive landing page with a header, hero, feature cards, approach section, call to action, footer, and mobile navigation.
+
+- [Open Task 2 source folder](https://github.com/surajjaiswal6556-pixel/suraj-jaiswal-portfolio/tree/main/task-2-landing-page)
+- [Open Task 2 live preview](https://surajjaiswal6556-pixel.github.io/suraj-jaiswal-portfolio/task-2-landing-page/)
+
 ## Project purpose
 
 The project demonstrates a personal portfolio with About Me, Skills, Projects, and Contact sections, using HTML, CSS, and basic JavaScript with a responsive layout.

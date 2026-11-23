@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Suraj Jaiswal — web development portfolio showcasing skills, projects and contact information.">
+  <meta name="theme-color" content="#0b1020">
+  <title>Suraj Jaiswal | Web Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Suraj Jaiswal home"><span class="brand-mark">SJ</span><span>Suraj Jaiswal<span class="brand-dot">.</span></span></a>
+      <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li><li><a href="#skills">Skills</a></li><li><a href="#projects">Projects</a></li><li><a class="nav-contact" href="#contact">Contact <span aria-hidden="true">↗</span></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> WEB DEVELOPMENT PORTFOLIO</p>
+        <h1>Hi, I'm <span class="gradient-text">Suraj Jaiswal.</span><br>I build for the web.</h1>
+        <p class="hero-description">I'm a web development learner focused on creating clean, responsive and user-friendly websites with HTML, CSS and JavaScript.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#projects">Explore my work <span>↗</span></a><a class="button button-ghost" href="#contact">Get in touch</a></div>
+        <div class="hero-meta"><span>Based in India</span><span class="meta-separator">•</span><span>Open to learning & opportunities</span></div>
+      </div>
+      <div class="hero-art" aria-label="Decorative code illustration">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="code-card"><div class="code-card-top"><i></i><i></i><i></i><span>developer.js</span></div><div class="code-lines"><p><b>01</b> <span class="code-purple">const</span> developer = {</p><p><b>02</b> &nbsp; name: <span class="code-green">'Suraj'</span>,</p><p><b>03</b> &nbsp; skills: [<span class="code-green">'HTML'</span>,</p><p><b>04</b> &nbsp; <span class="code-green">'CSS'</span>, <span class="code-green">'JavaScript'</span>],</p><p><b>05</b> &nbsp; mindset: <span class="code-green">'Always learning'</span></p><p><b>06</b> };</p><p class="code-cursor"><b>07</b> <span class="code-purple">let</span> nextProject = <span class="cursor-block"></span></p></div></div>
+        <div class="floating-chip chip-html"><span>5</span> HTML</div><div class="floating-chip chip-css"><span>✦</span> CSS</div><div class="floating-chip chip-js"><span>JS</span> JavaScript</div>
+      </div>
+      <a class="scroll-cue" href="#about"><span></span> SCROLL TO EXPLORE</a>
+    </section>
+
+    <section class="section container" id="about">
+      <div class="section-heading"><p class="eyebrow">01 / ABOUT ME</p><h2>A little about <span class="gradient-text">who I am.</span></h2></div>
+      <div class="about-grid"><div class="about-lead"><p class="large-copy">Curious by nature. <span class="muted">Creative through code.</span></p></div><div class="about-body"><p>I'm building my foundation in front-end web development and enjoy turning ideas into simple, useful digital experiences. I believe good websites should look thoughtful, work smoothly and feel easy to use on every screen.</p><p>This portfolio is part of my Web Development internship learning journey. I'm continuously practising, improving my skills and adding projects as I complete them.</p><div class="about-facts"><div><strong>03</strong><span>Core technologies</span></div><div><strong>100%</strong><span>Learning mindset</span></div><div><strong>∞</strong><span>Ideas to explore</span></div></div></div></div>
+    </section>
+
+    <section class="section section-alt" id="skills"><div class="container"><div class="section-heading"><p class="eyebrow">02 / SKILLS</p><h2>Tools I use to <span class="gradient-text">create.</span></h2><p class="section-intro">My current front-end toolkit, with plenty more to learn.</p></div><div class="skills-grid">
+      <article class="skill-card"><div class="skill-icon html-icon">5</div><h3>HTML5</h3><p>Semantic structure, accessible content and well-organised page layouts.</p><span class="skill-tag">STRUCTURE</span></article>
+      <article class="skill-card"><div class="skill-icon css-icon">✦</div><h3>CSS3</h3><p>Responsive layouts, Flexbox, Grid, transitions and visual styling.</p><span class="skill-tag">DESIGN</span></article>
+      <article class="skill-card"><div class="skill-icon js-icon">JS</div><h3>JavaScript</h3><p>DOM interaction, event handling and the fundamentals of dynamic websites.</p><span class="skill-tag">INTERACTION</span></article>
+    </div></div></section>
+
+    <section class="section container" id="projects"><div class="section-heading"><p class="eyebrow">03 / PROJECTS</p><h2>Learning by <span class="gradient-text">building.</span></h2><p class="section-intro">A selection of work from my development journey.</p></div>
+      <article class="project-card"><div class="project-preview"><div class="preview-window"><div class="preview-bar"><i></i><i></i><i></i></div><div class="preview-content"><span class="preview-label">MY FIRST PROJECT</span><div class="preview-title">Personal<br><em>Portfolio.</em></div><div class="preview-line"></div><div class="preview-pills"><i></i><i></i><i></i></div></div></div></div><div class="project-info"><p class="project-number">PROJECT 01</p><h3>Personal Portfolio Website</h3><p>A responsive personal website presenting my introduction, skills, project work and contact information. Built with plain HTML, CSS and JavaScript.</p><div class="tech-list"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><span class="project-status"><i></i> Internship project</span></div></article>
+      <p class="coming-soon">More projects will be added here as I complete them.</p>
+    </section>
+
+    <section class="section contact-section" id="contact"><div class="container contact-inner"><div><p class="eyebrow">04 / CONTACT</p><h2>Have an idea?<br><span class="gradient-text">Let's connect.</span></h2><p class="contact-copy">I'm always happy to connect, learn and discuss new opportunities.</p></div><div class="contact-panel"><p class="contact-label">SEND ME A MESSAGE</p><a class="contact-link" href="mailto:your.email@example.com" id="email-link">your.email@example.com <span>↗</span></a><p class="contact-note">Replace this placeholder with your email address before publishing.</p><div class="social-links"><a href="https://github.com/" target="_blank" rel="noreferrer">GitHub ↗</a><a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn ↗</a></div></div></div></section>
+  </main>
+  <footer class="footer"><div class="container footer-inner"><a class="brand" href="#home"><span class="brand-mark">SJ</span><span>Suraj Jaiswal<span class="brand-dot">.</span></span></a><p>Designed & built with care · <span id="year"></span></p><a href="#home" class="back-top">BACK TO TOP ↑</a></div></footer>
+</body>
+</html>

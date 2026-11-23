@@ -34,7 +34,7 @@ No framework, package installation, or build command is required.
 
 ## Before final submission
 
-- [ ] Replace `your.email@example.com` in `index.html` with my real email address.
+- [x] Add my contact email address to the Contact section.
 - [ ] Replace the generic GitHub and LinkedIn links with my actual profile URLs.
 - [ ] Open the live website and check every navigation link.
 - [ ] Test the layout at desktop and mobile widths.
